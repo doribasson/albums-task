@@ -1,0 +1,21 @@
+.inputs_place {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cards_container {
+  margin-top: 1em;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.List {
+  display: flex;
+  flex-wrap: wrap;
+  // justify-content: center;
+  gap: 1rem;
+}
