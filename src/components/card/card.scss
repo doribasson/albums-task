@@ -1,0 +1,59 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.styleCardContent {
+  padding: 1rem 1rem 1rem 1rem;
+  min-height: 70px;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #264864;
+  display: flex;
+  flex-direction: column;
+  color: #dce1e6;
+}
+
+.styleCardTitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.styleHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #345979;
+  padding: 0.7rem 0;
+  img {
+    border-radius: 15px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.containerUrl {
+  position: relative;
+  bottom: 1.7rem;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  display: flex;
+  width: 99%;
+  margin: auto;
+  justify-content: center;
+
+  span {
+    background-color: #183445;
+    width: 99%;
+    color: #385771;
+    padding-left: 3px;
+  }
+}
+
+.styleCardId {
+  color: #527698;
+  font-size: 0.8rem;
+  margin-top: 3px;
+}

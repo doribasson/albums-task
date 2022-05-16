@@ -1,0 +1,37 @@
+.o-input {
+  height: 35px;
+  padding: 0.71429rem;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #3f5f7a;
+  background-color: transparent;
+  box-sizing: border-box;
+  width: 30%;
+  min-width: 270px;
+  outline: none;
+  color: #ffffff81;
+  font-size: 1rem;
+
+  &.-hidden {
+    visibility: hidden;
+  }
+}
+
+.o-label {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 1.71429;
+}
+
+.o-inputgroup {
+  box-sizing: border-box;
+  &.-hidden {
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
